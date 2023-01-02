@@ -8,6 +8,8 @@ COPY tsconfig.json ./
 COPY src/ ./src/
 COPY typings/ ./typings/
 
+RUN yarn
+
 RUN yarn run tsc
 
 FROM node:18.12.1 AS Runner
