@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "esModuleInterop": true,
+    "module": "ES2022",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2022",
+    "outDir": "dist/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "eslint && tsc",
+    "start": "eslint && tsc && node dist/"
+  },
+  "type": "module",
+  "name": "joingate",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord-interactions": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "logger.js": "acrylic-style/logger.js",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.3.0"
+  },
+  "typings": "typings/"
+}
