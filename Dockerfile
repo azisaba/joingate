@@ -19,6 +19,7 @@ WORKDIR /app
 
 COPY --from=Builder /app/node_modules/ ./node_modules/
 COPY --from=Builder /app/dist/ ./dist/
+COPY --from=Builder /app/package.json ./package.json
 
 EXPOSE 8080
 
